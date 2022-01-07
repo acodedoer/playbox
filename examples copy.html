@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Comfortaa.ttf">
+    <title>Playbox GS</title>
+    <script src="./three.min.js"></script>    
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+        body, canvas{
+            margin:0px;
+            padding:0px;
+            font-family: 'Comfortaa', cursive;
+            background-color: #F3F5F7;
+            
+        }
+        .mobile{
+            width: 600px;
+        }
+        .row{
+            padding-top: 2em;
+            padding-bottom: 2em;
+        }
+        header,section{
+           width: 100%;
+        }
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            color:#344151
+        }
+        .white-bg{
+            background-color: #ffffff;
+        }
+        iframe{
+            height: 80vh;
+        }
+        a{
+            padding-left: 2em;
+        }
+        #logo-div{
+            font-size: 2.5em;
+        }
+        /* Style the tab */
+        .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+        background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+        background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo-div">playbox</div>
+        <div id="links-div">
+            <a>About</a>
+            <a>Products</a>
+            <a>Contact</a>
+        </div>
+    </header>
+
+    <section class="white-bg">
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-6">We bring people to your businesses and sites, by creating remotely accessible 3D virtual duplicates that can be immersly accesed by anyone, anyewhere, using just a mobile phone, a laptop or a virtual reality headset.</div>
+                <iframe class="col-md-6" src="https://acodedoer.github.io/presidents-ng/" title="Presidents-ng">
+                </iframe>
+            </div>
+        </div>   
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">We also create novel 3D virtual spaces, to host events, to showacse products, to educate, to create awarenss or just to wow audeineces.</div>
+                <iframe class="col-md-6" src="https://acodedoer.github.io/presidents-ng/" title="Presidents-ng">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    
+    <section class="white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">Gamified educational applications, optimised for mobile devices and users</div>
+                <iframe class="col-md-4" src="https://acodedoer.github.io/geographyquiz-ng" title="iNigeria">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="white-bg">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-8">Interactive or even gamified guides and trainings that can accessed through the web or as mobile applications, to ease and reduce the boarding of training, onboarding for business, coprration sor for public awareness.</div>
+            <iframe class="col-md-4" src="https://acodedoer.github.io/VS2019" title="Voter Training">
+            </iframe>
+        </div>
+        </div>
+    </section>
+
+    <!-- <canvas id="title-webgl"></canvas> -->
+</body>
+<script src="title.js"></script>
+</html>
